@@ -82,6 +82,7 @@ public class Logic {
             }
             if (countRow == table.length || countCell == table.length) {
                 result = true;
+                break;
             }
         }
         return result;
